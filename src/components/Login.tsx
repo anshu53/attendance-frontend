@@ -75,6 +75,7 @@ const Login: React.FC = () => {
       email: "anshuman.pandey@gmail.com",
       password: "admin123",
       role: "Administrator",
+      status: "approved",
       color: "from-purple-500 to-purple-600",
     },
   ];
