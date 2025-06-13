@@ -62,6 +62,7 @@ class ApiService {
       method: "POST",
       headers: this.getAuthHeaders(),
     });
+    console.log("Approving user:", userId);
     return this.handleResponse(response);
   }
 
